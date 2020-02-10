@@ -1,0 +1,71 @@
+<div class="container color_panel">
+
+    <h2 class="text-center ">EQUIPOS DE COMPUTO</h2>
+    <hr>
+    
+    <br>
+
+    <div class="row">
+        <div class="col-sm-3 ">
+            <button type="button" class="btn btn-outline-primary btn-sm btn-block "  [routerLink]="[ 'AgregarEquipos' ]" >AGREGAR EQUIPO </button>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-sm-2">
+            <div class="dropdown">
+                <button type="button" class="btn btn-success dropdown-toggle btn-sm btn-block" data-toggle="dropdown">
+                    Buscar por:
+                </button>
+
+                <div class="dropdown-menu ">
+                    <a class="dropdown-item">ID</a>
+                    <a class="dropdown-item">Nombre</a>
+                    <a class="dropdown-item">Marca</a>
+                    <span class="dropdown-item">Estatus</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <input type="text" class=" form-control form-control-sm">
+        </div>
+
+        <div class="col-sm-3">
+            <button type="button" class="btn btn-outline-success btn-sm">BUSCAR</button>
+        </div>
+    </div>
+
+    <br>
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID</th>
+                <th>Nombre del Equipo</th>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>No. Serie</th>
+                <th>Estatus</th>
+                <th>VER</th>
+                <th>Modificar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>12</td>
+                <td>DESKTOP-JU6QF7I</td>
+                <td>ACER</td>
+                <td>ASPIRE V3</td>
+                <td>2323OPD9394JD2</td>
+                <td>NO ASIGNADO</td>
+                <td>VER</td>
+                <td>MODIFICAR</td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</div>
